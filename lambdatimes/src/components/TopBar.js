@@ -15,6 +15,7 @@ const TopBarSection = styled.div`
   background-color: #333;
 `;
 
+
 const Container = styled.div`
   width: 100%;
   display: flex;
@@ -24,8 +25,8 @@ const Container = styled.div`
   color: #fff;
   letter-spacing: 1px;
   padding: 0 10px;
-  }
 `;
+
 
 const ContainerLeft = styled.div`
   display: flex;
@@ -33,13 +34,15 @@ const ContainerLeft = styled.div`
   align-items: center;
   flex-direction: row;
   flex: 1;
-  font-size: 11px;  
+  font-size: 11px;
+
   span {
     cursor: pointer;
     margin-right: 25%;
     font-weight: bold;
   }
 `;
+
 
 const ContainerCenter = styled.div`
   display: flex;
@@ -48,17 +51,20 @@ const ContainerCenter = styled.div`
   flex-direction: row;
   flex: 3;
   font-size: 9px;
+
   span {
     cursor: pointer;
     margin-right: 5%;
     &:last-child {
       margin-right: 0;
     }
+
     &:hover {
       text-decoration: underline;
     }
   }
 `;
+
 
 const ContainerRight = styled.div`
   display: flex;
@@ -68,6 +74,7 @@ const ContainerRight = styled.div`
   flex: 1;
   font-size: 11px;
   font-weight: bold;
+  
   span {
     cursor: pointer;
   }
